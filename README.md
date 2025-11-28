@@ -47,6 +47,8 @@ Verify the generated waveform using tabulation and model waveform comparison.
 
 <img width="766" height="608" alt="psd output new" src="https://github.com/user-attachments/assets/e27f6aa8-e15e-4e53-a1a3-5002779e3e78" />
 
+![WhatsApp Image 2025-11-28 at 14 13 18_e3e124bc](https://github.com/user-attachments/assets/ddf165d4-9c9d-45ba-9460-a5db1e500460)
+
 <h2>Result</h2>
 
 Thus the Autocorrelation and PSD are executed in Scilab and output is verified.
