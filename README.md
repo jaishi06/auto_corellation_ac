@@ -41,32 +41,11 @@ Verify the generated waveform using tabulation and model waveform comparison.
 
 <h2>Program (Scilab Code)</h2>
 
-```asm
-t = 0:0.01:2*3.14;
-x = 3.7*sin(4*t) + 4.5*cos(6*t);
+<img width="442" height="742" alt="psd code" src="https://github.com/user-attachments/assets/eea28f23-7407-440a-9e75-cd3bee9bf433" />
 
-subplot(3,2,1);
-plot(x);
-
-autcorr = xcorr(x, x);
-subplot(3,2,2);
-plot(autcorr);
-
-psd = fft(autcorr);
-subplot(3,2,3);
-plot(psd);
-
-fw = fft(x);
-subplot(3,2,4);
-plot(fw);
-
-fw2 = (abs(fw)).^2;
-subplot(3,2,5);
-plot(fw2);
-```  
 <h2>Output</h2>
 
-<img width="1918" height="1008" alt="image" src="https://github.com/user-attachments/assets/dd70a05f-e769-4fa2-b3af-989a40f4ea92" />
+<img width="766" height="608" alt="psd output new" src="https://github.com/user-attachments/assets/e27f6aa8-e15e-4e53-a1a3-5002779e3e78" />
 
 <h2>Result</h2>
 
